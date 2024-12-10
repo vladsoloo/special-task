@@ -1,4 +1,4 @@
-residents = int(input("Введите количество жителей страны: "))
-square = int(input("Введите площадь страны: "))
-population_density = residents / square
-print("Плотность населения: ", population_density)
+m = int(input("Введите массу (кг): "))
+v = int(input("Введите объём (м3): "))
+p = m / v
+print("Плотность (кг/м3): ", p)
